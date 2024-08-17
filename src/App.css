@@ -1,0 +1,41 @@
+#root {
+  margin: 0 auto;
+  width: 100%;
+  --primary-color: #00897b;
+  --secondary-color: #f0f0f0;
+}
+*{
+  box-sizing: border-box;
+}
+.Nav-bar {
+  z-index: 2;
+}
+
+h1,
+h2,h3
+{
+  
+  font-family: "Vollkorn", serif;
+  color: #1E2F2D;
+
+}
+
+body,
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #1E2F2D;
+}
+
+
+.heading{
+  /* font-size: 36px !important; */
+  font-size: clamp(25px, 2.5vw,36px)  !important;
+  font-weight: 600 !important;
+}
+.sub-heading{
+/* font-size:18px !important ; */
+font-size: clamp(14px,1.25vw,18px) !important;
+
+}
+

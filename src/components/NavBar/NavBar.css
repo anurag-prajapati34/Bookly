@@ -1,0 +1,166 @@
+
+.Nav-bar{
+  background-color:var(--primary-color) ;
+   
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    height: clamp(40px,3vw,50px);
+  
+}
+
+.NavBar-content{
+
+ height: 100%;
+
+
+    color:white;
+    /* border-radius: 10px;
+    margin-top: 10px; */
+   
+}
+
+.options{
+  cursor: pointer;
+}
+.NavBar-content .logo{
+    font-weight: bolder;
+    font-size: clamp(16px, 1.8vw,20px)
+ 
+}
+
+
+.search-box{
+
+display: flex;
+align-items: center;
+background-color: white;
+/* 
+height: clamp(25px,2.08vw,30px); */
+height: 75%;
+width: clamp(180px , 40vw,300px);
+
+text-decoration: none;
+outline: none;
+color: black;
+border-radius: 25px;
+caret-color: var(--primary-color);
+overflow: hidden;
+padding: 0px 15px;
+
+}
+.search-input{
+ 
+
+  flex: 1;
+  min-width: 0;
+  background-color: transparent;
+
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  
+}
+.search-icon{
+  margin-left: 2px;
+  color: var(--primary-color);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+/*---------*/
+
+.wishlist{
+  position: relative;
+}
+.wishlisht-icon{
+
+ 
+  font-size: 20px;
+  
+}
+.wishlist-count{
+position: absolute;
+height: 16px;
+width: 16px;
+background-color: red;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 12px;
+right: -30%;
+top: -20%;
+font-weight: bold;
+color: white;
+
+
+z-index: 2;
+}
+
+.menu{
+
+ 
+  font-size: 20px;
+  display: none;
+  
+}
+
+.menu-sidebar-container{
+  z-index: 3;
+transition: 0.5s ease;
+visibility: hidden;
+opacity: 0;
+
+}
+.menu-sidebar{
+  width: min(50vw , 350px);
+  background-color: var(--primary-color)
+}
+
+.menu-sidebar-container.active{
+visibility: visible;
+  opacity: 1;
+  right: 0;
+}
+/*big tablet */
+.close{
+  background-color:var(--secondary-color);
+}
+
+.menu-sidebar ul li{
+  margin-bottom: 10px;
+}
+
+.active-nav{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition: 1s ease;
+
+}
+
+.wishlist{
+  position: relative;
+}
+
+
+.options:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition: 1s ease;
+
+}
+
+
+
+
+@media (max-width:950px) {
+.nav-pages{
+  display: none;
+}
+.menu{
+  display: block;
+}
+
+  
+}

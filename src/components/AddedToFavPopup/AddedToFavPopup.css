@@ -1,0 +1,26 @@
+.addFavPop{
+
+    /* width: min(400px); */
+  padding:10px 20px 10px 20px;
+    background-color: red;
+    z-index: 5;
+    position: fixed;
+    right: -100%;
+    top: 60px;
+    background-color: var(--primary-color);
+  
+  border-radius: 10px;
+  color: white;
+ visibility: hidden;
+ opacity: 0;
+
+    
+}
+
+
+.show{
+visibility: visible;
+right: 10px;
+opacity: 1;
+transition: 0.5s ease;
+}

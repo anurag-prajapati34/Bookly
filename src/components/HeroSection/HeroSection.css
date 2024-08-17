@@ -1,0 +1,184 @@
+.hero-section {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 983px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  align-items: center;
+}
+.hero-books-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 49%;
+  
+}
+.heroBooks {
+  border-radius: clamp(5px, 1.5vw, 17px);
+  box-shadow: 0 4.17px 28.47px 8.34px rgba(0, 0, 0, 0.25);
+}
+
+.heroBook1 {
+  z-index: 1;
+  position: absolute;
+
+  max-width: 332px;
+
+  justify-self: center;
+  align-self: center;
+}
+
+.heroBook2 {
+  width: 283px;
+
+  position: relative;
+}
+
+.heroBook3 {
+  width: 283px;
+}
+
+.hero-description {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-description h1 {
+  font-size: clamp(30px, 4vw, 62px);
+  font-weight:600;
+  
+}
+
+.hero-description p {
+  margin: 5px;
+  font-size: clamp(14px, 2vw, 25px);
+}
+.hero-description button {
+  align-self: flex-start;
+  max-height: 67px;
+  max-width: 312px;
+  min-height: 30px;
+  min-width: 100px;
+
+  background-color: var(--primary-color);
+  font-size: clamp(10px, 1.5vw, 25px);
+  padding: 10px 25px;
+
+  color: white;
+  font: 600;
+  margin-top: 40px;
+}
+
+@media (min-width: 1280px) {
+  .hero-section {
+    /* background-color: blue; */
+    height: 90vh;
+  }
+  .heroBook1 {
+    height: 387px;
+  }
+  .heroBook2,
+  .heroBook3 {
+    height: 332px;
+  }
+}
+
+/* small laptops */
+
+@media (max-width: 1280px) {
+  .hero-section {
+    /* background-color: red; */
+    height: 80vh;
+  }
+
+  .heroBook1 {
+    height: 320px;
+  }
+  .heroBook2,
+  .heroBook3 {
+    height: 280px;
+  }
+}
+/*big tablet */
+
+@media (max-width:950px) {
+
+  
+}
+/* tablets */
+
+@media (max-width: 780px) {
+  .hero-section {
+    /* background-color: green; */
+    height: 70vh;
+  }
+
+  .heroBook1 {
+    height: 278px;
+  }
+  .heroBook2,
+  .heroBook3 {
+    height: 243px;
+  }
+}
+
+@media (max-width: 670px) {
+  .hero-section {
+    /* background-color: pink; */
+    height: 70vh;
+  }
+
+  .heroBook1 {
+    height: 210px;
+  }
+  .heroBook2,
+  .heroBook3 {
+    height: 180px;
+  }
+}
+
+/* mobiles */
+
+@media (max-width: 550px) {
+  .hero-section {
+    /* background-color: brown; */
+    height: 50vh;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .heroBook1 {
+    height: 30vw;
+  }
+  .heroBook2,
+  .heroBook3 {
+    height: 27vw;
+    width: auto;
+  }
+  .hero-description button {
+    display: none;
+  }
+  .hero-description {
+    text-align: center;
+    align-self: center;
+    width: 90%;
+
+  }
+
+  .heroBooks {
+    margin-top: 20px;
+  }
+}

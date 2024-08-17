@@ -1,0 +1,39 @@
+
+
+.shop-header {
+  
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    text-align: center;
+    font-size: clamp(18px,1.5vw,36px);
+    padding: 0px 5px;
+/* 
+background-image: linear-gradient(to right ,#17a193e5 , #44978ee9),url(../../assets/images/bookself.jpg); */
+background-color: var(--secondary-color);
+    
+}
+
+.book-word{
+    color: var(--primary-color);
+}
+
+.load-more{
+    width: min(250px,50vw);
+    height: 50px;
+    /* background-color: var(--primary-color); */
+    border: 2px solid;
+    border-color: var(--primary-color);
+
+ margin-top: 50px;
+ transition: 0.5s ease;
+
+}
+.load-more:hover{
+    background-color: var(--primary-color);
+    color: white;
+}

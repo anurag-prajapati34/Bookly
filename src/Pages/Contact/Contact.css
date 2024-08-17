@@ -1,0 +1,73 @@
+.social-acounts-container{
+
+}
+
+.social-acount{
+
+    height: 130px;
+    width: 220px;
+    border: 2px solid black;
+    box-shadow: 0px 4px 0px 0px black;
+    border-radius: 17px;
+    margin:auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.social-logo{
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 20px;
+}
+.social-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-acount:hover{
+
+transform: scale(1.05);
+transition: 0.5s ease;
+
+}
+
+.input-field{
+    width: min(500px,80vw);
+    height: 35px;
+   border: none;
+   box-shadow: none;
+outline: none;
+border: 2px solid black;
+border-radius: 17px;
+box-shadow: 0px 4px 0px 0px black;
+padding: 1em;
+
+}
+
+
+
+.message{
+    height: 80px;
+}
+
+.submit-button{
+    height: 35px;
+    width: 130px;
+    border-radius: 17px;
+    background-color: #00897B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+

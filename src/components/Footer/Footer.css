@@ -1,0 +1,23 @@
+.footer-container{
+background-color: #F0F0F0;
+height: max(300px,10vw);
+}
+.brand-desc{
+    text-align: start;
+}
+
+
+
+@media (max-width:700px){
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+
+        gap: 20px;
+        
+    }
+    .brand-desc{
+       text-align: center;
+    }
+}
