@@ -21,6 +21,27 @@
 <p><em>Caption: Bookly Homepage Interface</em></p>
 
 ![Bookly Homepage](src/assets/images/Homepage.png)
+
+<p><em>Caption: Best Sellers</em></p>
+
+![Best sellers](src/assets/images/Best_sellers.png)
+
+<p><em>Caption: Featured </em></p>
+
+![Featured Books](src/assets/images/Featured_Books.png)
+
+<p><em>Caption: Searched</em></p>
+
+![Searched Books](src/assets/images/searched_books.png)
+<p><em>Caption: Favorite Books page</em></p>
+
+![Favorite Books](src/assets/images/favorite_books.png)
+<p><em>Caption:Contact Us page</em></p>
+
+![Contact page](src/assets/images/contact.png)
+<p><em>Caption:About Us page</em></p>
+
+![About page](src/assets/images/About.png)
 <h2>🧑‍💻 Tech Stack</h2>
 <ul>
   <li>React.js</li>
