@@ -4,9 +4,9 @@ Bookly is an intuitive and fully-featured online book store web application, des
 
 <h2>🛠️ Features</h2>
 <b>📖 Browse and Search Books:</b> Explore a variety of books with advanced search and filtering options.
-<b>🛒 Add to Cart:</b> Seamless add-to-cart functionality for quick purchases.
-<b>⭐ Best Sellers:</b> Real-time best sellers.
-<b>💬 Book Details:</b> Detailed information on books, including author info, ratings, and reviews.
+<b>🛒 Add to Cart:</b>Seamless add-to-cart functionality for quick purchases.
+<b>⭐ Best Sellers:</b>Real-time best sellers.
+<b>💬 Book Details:</b>Detailed information on books, including author info, ratings, and reviews.
 <b>💻 Responsive Design:</b> Fully optimized for desktops, tablets, and mobile devices.
 
 
