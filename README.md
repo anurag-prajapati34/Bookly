@@ -15,6 +15,12 @@
 <h2>🚀 Live Demo</h2>
 <p>Check out the live version of <strong>Bookly</strong> here: <a href="https://bookly-6t46.onrender.com/">Live Demo</a></p>
 
+<h2>🎨 Screenshots</h2>
+
+
+<p><em>Caption: Bookly Homepage Interface</em></p>
+
+![Bookly Homepage](src/assets/images/Homepage.png)
 <h2>🧑‍💻 Tech Stack</h2>
 <ul>
   <li>React.js</li>
